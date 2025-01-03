@@ -1,13 +1,11 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
-int main(){
-
-    string a[0],b[0],c[0],d[0],e[0],f[0],ig[0];
-    cin>>a[0]>>b[0]>>ig[0]>>c[0]>>d[0]>>ig[0]>>e[0]>>f[0];
-    cout<<c<<d<<"/"<<a<<b<<"/"<<e<<f<<endl;
-    cout<<e<<f<<"/"<<c<<d<<"/"<<a<<b<<endl;
-    cout<<a<<b<<"-"<<c<<d<<"-"<<e<<f<<endl;
-
-
+int main()
+{
+    char a, b, c, d, e, f, z;
+    cin >> a >> b >> z >> c >> d >> z >> e >> f ;
+    cout << c << d << z << a << b << z << e << f <<endl;
+    cout << e << f << z << c << d << z << a << b <<endl;
+    cout << a << b << "-" << c << d << "-" << e << f <<endl;
     return 0;
 }

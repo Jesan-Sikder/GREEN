@@ -1,25 +1,28 @@
-#include <stdio.h>
+#include <bits/stdc++.h>
+using namespace std;
+
 int main()
 {
-    int a, b, c, x = 0, y = 0;
 
-    while (scanf("%d", &c) && c != 0)
+    int c;
+
+    while (cin >> c && c != 0)
     {
         int a, b, x = 0, y = 0;
-
         while (c--)
         {
-            scanf("%d %d", &a, &b);
+            cin >> a >> b;
             if (a > b)
             {
                 x++;
             }
-            else if (a < b)
+            if (a < b)
             {
                 y++;
             }
         }
-        printf("%d %d\n", x, y);
+
+        cout << x << " " << y << endl;
     }
 
     return 0;

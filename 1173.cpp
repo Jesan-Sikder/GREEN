@@ -6,8 +6,9 @@ int main(){
     for (int  i = 0; i < 10; i++)
     {
         cout<<"N["<<i<<"]";
-        int a=i*2;
-        cout<<" = "<<a<<endl;
+        
+        cout<<" = "<<x<<endl;
+        x=x*2;
     }
     
 }

@@ -4,20 +4,13 @@ using namespace std;
 #define dd double
 int main(){
                                
-          int count = 0,t;
-          float a;
-          cin>>t;
-          while(t--){
-               cin>>a;
-               count = 0;
-               while(a>1){
-                a/=2;
-                count ++;
-               }
-cout<<count<<" dias"<<endl;
-          }
-   
-          
+                               int r,l;
+                               cin>>r>>l;
+          int v = (1.3333333333333332) * (3.1415*r*r*r);                     
+                  /* (4/3)= 1.333333333333333 using it cause 
+                  an error for floating facts       */       
+             cout<<l/v<<endl;                  
+                               
                                
                                
                                

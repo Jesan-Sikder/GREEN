@@ -6,5 +6,8 @@ int main() {
         cout << i << " ";
     }
     cout << endl;
+    // int a;
+    //  cin>>a;
+    //  cout<<a<<endl;
     return 0;
 }
